@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Learner</title>
+    <link rel="canonical" href="https://larnr.com" />
+
+        
+        <link rel="icon" href="/favicon.ico" sizes="16x16 32x32" type="image/ico">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <!-- <link rel="stylesheet" href="https://larnr.com/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+        <style>
+          .card{
+              border: 0px !important;
+          }
+          .cat{
+              background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              height: 200px;
+              text-align: center;
+              margin: 10px;
+              color:white;
+              animation: out 1s forwards;
+          }
+          @keyframes  in{
+              from{
+                  background-size: 100%;
+              }
+              to{
+                  background-size: 120%;
+              }
+          }
+          @keyframes  out{
+              from{
+                  background-size: 120%;
+              }
+              to{
+                  background-size: 100%;
+              }
+          }
+          .cat:hover, a.card .cat-text, #catagory a:hover{
+              animation: in 1s forwards;
+              text-decoration: none;
+          }
+          .cat-1{
+              height: 100%;
+              background-color: rgba(45, 45, 221, 0.5);
+          }
+          .cat-2{
+              height: 100%;
+              background-color: rgba(0, 132, 219, 0.5);
+          }
+          .cat-3{
+              height: 100%;
+              background-color: rgba(31, 202, 159, 0.5);
+          }
+          .cat-4{
+              height: 100%;
+              background-color: rgba(31, 105, 202, 0.5);
+          }
+          .cat-5{
+              height: 100%;
+              background-color: rgba(145, 9, 127, 0.5);
+          }
+          .cat-6{
+              height: 100%;
+              background-color: rgba(60, 7, 110, 0.5);
+          }
+          .cat-text{
+              padding-top:13%;
+              font-size:30px;
+              text-shadow: 2px 2px 4px #000000;
+          }
+          </style>
+        <link rel="stylesheet" href="https://larnr.com/css/larnr.css">
+        <link rel="stylesheet" href="https://larnr.com/css/prism_coy.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="https://larnr.com/js/jquery.min.js"></script>
+        <script src="https://larnr.com/js/bootstrap.min.js"></script>
+        
+        <script src="https://larnr.com/js/script.js"></script>
+        <script src="https://larnr.com/js/prism_patched.min.js"></script>
+  </body>
+</html>
